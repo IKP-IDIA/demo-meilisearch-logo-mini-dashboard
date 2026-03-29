@@ -8,6 +8,22 @@ const variants = {
     tag: 'span',
     style: css``,
   },
+  typoikp1: {
+    tag: 'span',
+    style: css`
+      font-size: 46px;
+      line-height: 54px;
+      font-weight: 800;
+    `,
+  },
+  typoikp2: {
+    tag: 'span',
+    style: css`
+      font-size: 46px;
+      line-height: 54px;
+      font-weight: 500;
+    `,
+  },
   typo1: {
     tag: 'h2',
     style: css`

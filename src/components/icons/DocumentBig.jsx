@@ -21,3 +21,4 @@ const SvgDocumentBig = ({ title, titleId, ...props }) => (
   </svg>
 )
 export default SvgDocumentBig
+

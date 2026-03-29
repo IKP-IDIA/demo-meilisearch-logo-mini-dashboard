@@ -65,7 +65,29 @@ const OnBoarding = () => (
     <Typography variant="typo12" mb={42} color="gray.0">
       Welcome to
     </Typography>
-    <LogoText style={{ width: 260 }} />
+    {/* <LogoText style={{ width: 260 }} /> */}
+    
+  
+    <Typography component="div" mt={12}>
+      
+      {/* คำว่า iknow ใช้ variant typoikp1 (ตัวหนา 800) */}
+      <Typography 
+        variant="typoikp1" 
+        style={{ color: '#3B2E2D' }}
+      >
+        iknow
+      </Typography>
+
+      {/* คำว่า plus ใช้ variant typoikp2 (ตัวหนา 500) */}
+      <Typography 
+        variant="typoikp2" 
+        style={{ color: '#EF2F2C' }}
+      >
+        plus
+      </Typography>
+
+    </Typography>
+
     <Typography variant="typo13" mt={12} color="main.default">
       Mini Dashboard
     </Typography>
